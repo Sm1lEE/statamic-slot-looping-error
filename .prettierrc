@@ -1,0 +1,17 @@
+{
+    "arrowParens": "avoid",
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "plugins": ["./node_modules/prettier-plugin-antlers/"],
+    "overrides": [
+        {
+            "files": "*.antlers.html",
+            "vscodeLanguageIds": ["antlers"],
+            "options": {
+                "parser": "antlers"
+            }
+        }
+    ]
+}
